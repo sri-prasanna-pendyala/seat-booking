@@ -1,0 +1,22 @@
+{
+  "name": "seat-booking-backend",
+  "version": "1.0.0",
+  "description": "Seat booking API with optimistic locking",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --testPathPattern=tests/ --forceExit --detectOpenHandles"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
